@@ -18,8 +18,8 @@ players:
 
 Read more here:
 
-* [Assingment Paper [greek]](ai_assignment1_description.pdf)
-* [Our report [greek]](report.pdf)
+* [Assingment Paper](ai_assignment1_description.pdf)(lang: GR)
+* [Our report](report.pdf)(lang: GR)
 * [Reversi rules](https://en.wikipedia.org/wiki/Reversi#Rules)
 
 Installation
