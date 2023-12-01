@@ -13,8 +13,8 @@ players:
   * It's max depth is determined by the user.
 * User:
   * can choose to go first.
-  * Determines the computer's max depth before at the beginning of the game
-    (it's a bit like choosing the difficulty in other games).
+  * Determines the computer's max depth at the beginning of the game (a bit
+    like choosing the difficulty in other games).
 
 Read more here:
 
@@ -31,9 +31,9 @@ Inside the project directory, run the following commands:
 
 Known Bugs
 ----------
-* During the user's turn, we don't perform a lot of checks on the his input. So
-  if the input consists of non-digit characters, the game will throw an
-  `InputMismatchException` and terminate.
+* During the user's turn, we only check if the input can be interpreted as an
+  integer value with `Scanner.nextInt()`. So if the input contains non-digit
+  characters, the game will throw an `InputMismatchException` and terminate.
 * During the computers turn, while evaluating the optimal next board state, the
   algorithm doesn't consider whether it has to pass that turn or not. This can
   lead to a rare bug, where the computer chooses a move that is optimal in
