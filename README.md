@@ -22,13 +22,6 @@ Read more here:
 * [Our report](report.pdf) (lang: GR)
 * [Reversi rules](https://en.wikipedia.org/wiki/Reversi#Rules)
 
-Installation
-------------
-Inside the project directory, run the following commands:
-
-    $ javac -d ./bin ./src/*.java
-    $ java -classpath ./bin Main
-
 Known Bugs
 ----------
 * During the user's turn, we only check if the input can be interpreted as an
