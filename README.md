@@ -1,5 +1,7 @@
 Othello (Reversi)
 =================
+![Preview](screenshots/Screenshot_2023-11-19_183647.png)
+
 1st assignment - Artificial Intelligence 2023-24 @ [AUEB](https://aueb.gr).
 
 Goal
